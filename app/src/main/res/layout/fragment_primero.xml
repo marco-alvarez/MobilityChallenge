@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFBBBBBB" >
+
+    <ImageView
+        android:id="@+id/img_get_ride"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:src="@drawable/img_get_ride"/>
+
+    <ImageView
+        android:id="@+id/img_offer_ride"
+        android:layout_weight="50"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:src="@drawable/img_offer_ride"/>
+
+</LinearLayout>
